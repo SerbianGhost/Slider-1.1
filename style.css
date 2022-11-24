@@ -1,0 +1,81 @@
+.wrap {
+   width: 600px;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+.slider-box {
+   align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.btn {
+   cursor: pointer;
+   border: none;
+   background-color: inherit;
+   z-index: 3;
+}
+.prev {
+   width: 30px;
+
+height: 30px;
+
+border-top: 2px solid gray !important;
+
+border-right: 2px solid gray !important;
+
+margin: 16px 0 0 10px;
+
+transform: rotate(-135deg);
+
+display: inline-block;
+
+transition: 1s;
+}
+.slider {
+   overflow:hidden;
+   height: 256px;
+   width: 256px;
+}
+.slider-line {
+   position: relative;
+   height: 256px;
+   width: calc(256px *4);
+   background-color: gray;
+   display: flex;
+   transition: all ease 1s;
+}
+.square {
+   width: 128px;
+   height: 128px;
+margin: 0 auto;
+margin-top: 60px;
+}
+.red {
+   background-color: red;
+}
+.yellow {
+   background-color: yellow;
+}
+.black {
+   background-color: black;
+}
+.white {
+   background-color: white;
+}
+.next {
+   width: 30px;
+
+height: 30px;
+
+border-top: 2px solid gray !important;
+
+border-right: 2px solid gray !important;
+
+margin: 16px 0 0 10px;
+
+transform: rotate(45deg);
+
+display: inline-block;
+
+transition: 1s;
+}
